@@ -1,0 +1,16 @@
+{
+  "name": "telegram-openrouter-bot",
+  "version": "1.0.0",
+  "description": "Telegram AI Bot with OpenRouter API",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.12.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
